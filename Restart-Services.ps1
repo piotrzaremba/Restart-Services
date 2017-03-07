@@ -90,7 +90,6 @@ if($restartFlag -eq $False)
     Write-Host "-------------------------------------------" 
     Write("All services are running”);
     Write-Host "-------------------------------------------" 
-    Email-Admin("All services are running”);
     exit
 }
 

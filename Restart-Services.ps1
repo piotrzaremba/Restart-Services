@@ -52,7 +52,7 @@ function Log($message)
     $logTime = Get-Date -Format "yyyy-MM-dd"
 
     #  Log file name:
-    $path = "D:\PSLogs\"
+    $path = "Your Path"
 
     if([IO.Directory]::Exists($path))
     {
